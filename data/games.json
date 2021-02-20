@@ -1,0 +1,39 @@
+[
+    {
+        "name":"Super Smash Bros Ultimate",
+        "shorthand":"ssbu",
+        "mostWins":0,
+        "leader":"placeholder"
+    },
+    {
+        "name":"Warzone",
+        "shorthand":"warzone",
+        "mostWins":0,
+        "mostKills":0,
+        "leader":"placeholder"
+    },
+    {
+        "name":"Madden",
+        "shorthand":"madden",
+        "mostWins":0,
+        "leader":"placeholder"
+    },
+    {
+        "name":"NBA 2K",
+        "shorthand":"nba",
+        "mostWins":0,
+        "leader":"placeholder"
+    },
+    {
+        "name":"FIFA",
+        "shorthand":"fifa",
+        "mostWins":0,
+        "leader":"placeholder"
+    },
+    {
+        "name":"Rocket League",
+        "shorthand":"rocketleague",
+        "mostWins":0,
+        "leader":"placeholder"
+    }
+]

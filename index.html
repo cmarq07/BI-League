@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Christian Calloway">
+    <title>The BI League</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+</head>
+<body>
+    <header class="menu topbar">
+        <h1>The BI League</h1>
+    </header>
+    <div class="menu lowbar">
+        <a href="index.html">Home</a>
+        <a href="games.html">Games</a>
+        <a href="players.html">Players</a>
+        <a href="matchups.html">Matchups</a>
+    </div>
+
+    <main>
+        <section class="content">
+            <p>
+                Welcome to the BI League home page!
+            </p>
+        </section>
+        <div class="card-container">
+            <div id="allCards" class="card-row">
+            </div>
+        </div>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/json" src="data/games.json"></script>
+    <script type="text/json" src="data/data.json"></script>
+    <script type="text/javascript" src="scripts/scripts.js"></script>
+</body>
+</html>

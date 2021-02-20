@@ -1,0 +1,190 @@
+body {
+    background-color:#404040;
+    font-family:'Raleway', Arial, Helvetica, sans-serif;
+    color:white;
+    margin:0;
+    font-size:18px;
+}
+
+main {
+    padding-left:10px;
+    padding-right:10px;
+    padding-bottom:10px;
+}
+
+/* Menu Elements */
+.menu.topbar,
+.menu.lowbar {
+    position:relative;
+    text-transform:uppercase;
+}
+
+.menu.topbar {
+    background-color:#cc0000;
+    padding:1px 0 1px 10px;
+    font-weight:900;
+    color:#ff8000;
+    z-index:2;
+    box-shadow:0 1px 10px black;
+}
+
+.menu.topbar h1 {
+   text-shadow:5px 3px 7px black;
+   letter-spacing:5px;
+}
+
+.menu.lowbar {
+    background-color:#800000;
+    padding:7px 0 7px 20px;
+    margin-bottom:30px;
+    font-weight:600;
+    z-index:1;
+    box-shadow:0 1px 20px black;
+}
+
+.menu.lowbar a {
+    color:#e6e6e6;
+    margin-right:20px;
+    text-decoration:none;
+    text-shadow:2px 2px 10px black;
+}
+
+.menu.lowbar a:hover {
+    color:white;
+    text-shadow:2px 2px 10px white;
+}
+
+/* Game Cards */
+.card-container {
+    display:flex;
+}
+
+.card-row {
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.card {
+    background-color:#cc0000;
+    width:25vw;
+    border-radius:20px;
+    box-shadow:0 5px 10px black;
+    color:#e6e6e6;
+    text-decoration:none;
+    padding-bottom:0.5em;
+    margin:10px;
+}
+
+.card:hover {
+    background-color:#dd0000;
+    color:white;
+    cursor:pointer;
+}
+
+.card h2 {
+    font-size:1em;
+    text-align:center;
+    text-transform:uppercase;
+    font-weight:900;
+}
+
+.card .card-text {
+    text-align:center;
+}
+
+.card-text p {
+    margin:0.1em;
+}
+
+.card .card-text .subtitle {
+    font-weight:900;
+    text-transform:uppercase;
+    margin:0;
+}
+
+.card img {
+    height:25vw;
+    width:25vw;
+    border-radius:20px 20px 0 0;
+}
+
+/* Player Cards */
+#playerCards {
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+.playerCard {
+    width:25%;
+    background-color:#4d0000;
+    border-radius:20px;
+    box-shadow:0 5px 20px black;
+    padding-bottom:5px;
+    margin:10px;
+}
+
+.nameplate {
+    background-color:#800000;
+    color:orange;
+    text-shadow:2px 2px 10px black;
+    border-radius:20px 20px 0 0;
+    padding:5px;
+    box-shadow:0 5px 20px black;
+}
+
+.statsplate {
+    width:50%;
+    color:black;
+    display:inline-block;
+}
+
+.cardSubtitle {
+    color:white;
+    text-shadow:5px 5px black;
+}
+
+.gameStats {
+    display:inline-block;
+    padding:5px;
+    margin:0 20px 0 0;
+}
+
+.gameStats .game {
+    display:inline-block;
+    margin:0 10px 0 0;
+}
+
+.playerName {
+    font-size:2em;
+}
+
+/* Admin Page */
+form #passwordInput {
+    display:block;
+    border-radius:50px;
+    border:none;
+    padding:5px;
+    outline:none;
+    font-size:1.1em;
+}
+
+form button {
+    margin-top:10px;
+    font-size:1.5em;
+    background:none;
+    outline:none;
+    border:none;
+}
+
+form button:hover {
+    font-size:1.5em;
+    background:none;
+    outline:none;
+    border:none;
+    cursor:pointer;
+}
+
+#unlockedScreen {
+    display:none;
+}
